@@ -1,0 +1,19 @@
+addWindowListener( new AreYouSure() );  
+
+//	private class AreYouSure extends WindowAdapter {
+//		@Override
+//		public void windowClosing(WindowEvent e){
+//			int option = JOptionPane.showOptionDialog(  
+//					ServerJFrame.this,  
+//					"Are you sure you want to quit?",  
+//					"Exit Dialog", JOptionPane.YES_NO_OPTION,  
+//					JOptionPane.WARNING_MESSAGE, null, null,  
+//					null );  
+//			if (option == JOptionPane.YES_OPTION) {  
+//				//            	DataExport.exportData(playerList, strategyList, payoffList, gameNumList); FIXME do this?
+//				System.exit( 0 );  
+//			}  else {
+//				// Do nothing
+//			}
+//		}
+//	}
